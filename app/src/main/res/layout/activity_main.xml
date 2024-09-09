@@ -58,7 +58,6 @@
         app:layout_constraintGuide_percent="0.98" />
 
 
-    <!-- Display Section -->
     <TextView
         android:id="@+id/txt_operation"
         android:layout_width="wrap_content"
@@ -82,7 +81,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_operation" />
 
-    <!-- Separator -->
     <View
         android:layout_width="150dp"
         android:layout_height="2dp"
@@ -91,7 +89,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guidelineHorizontal2" />
 
-    <!-- Buttons Row 1 -->
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnAC"
         style="@style/CalculatorButton"
@@ -129,7 +126,6 @@
         app:layout_constraintStart_toEndOf="@+id/guidelineVertical4"
         app:layout_constraintTop_toBottomOf="@+id/guidelineHorizontal2" />
 
-    <!-- Buttons Row 2 -->
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn7"
         style="@style/CalculatorButton"
@@ -163,7 +159,6 @@
         app:layout_constraintStart_toEndOf="@+id/guidelineVertical4"
         app:layout_constraintTop_toBottomOf="@+id/btnMultiply" />
 
-    <!-- Buttons Row 3 -->
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn4"
         style="@style/CalculatorButton"
@@ -197,7 +192,6 @@
         app:layout_constraintStart_toEndOf="@+id/guidelineVertical4"
         app:layout_constraintTop_toBottomOf="@+id/btnPlus" />
 
-    <!-- Buttons Row 4 -->
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn1"
         style="@style/CalculatorButton"
@@ -233,7 +227,6 @@
         app:layout_constraintStart_toStartOf="@id/btnMinus"
         app:layout_constraintTop_toBottomOf="@+id/btnMinus" />
 
-    <!-- Buttons Row 5 -->
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn0"
         style="@style/CalculatorButton"
